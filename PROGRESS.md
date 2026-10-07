@@ -11,6 +11,7 @@ Short record of what has been done so far (updated 2026-10-07).
 | 3 | Workflow config: YOLO mode, coarse phases, parallel execution, research/plan check/verifier on | `.planning/config.json` |
 | 4 | Research by 4 parallel agents (stack, features, architecture, pitfalls) plus a synthesis | `.planning/research/` |
 | 5 | 34 v1 requirements written (languages, core page, content, SEO, performance, launch) | `.planning/REQUIREMENTS.md` |
+| 6 | Roadmap: 4 vertical MVP phases (core page, content, SEO and analytics, launch) | `.planning/ROADMAP.md` |
 
 ## Key decisions
 
@@ -22,6 +23,6 @@ Short record of what has been done so far (updated 2026-10-07).
 
 ## Next
 
-1. Create roadmap (phases mapped to requirements)
+1. ~~Create roadmap~~ done (4 phases, 34/34 requirements mapped)
 2. `/gsd-discuss-phase 1` or `/gsd-plan-phase 1`
 3. Gather client content: certificates, product ranges, hours, phone, Telegram username, domain access, native translation reviewers
