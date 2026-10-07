@@ -2,7 +2,7 @@
 
 ## What This Is
 
-A bilingual (Uzbek + Russian) landing page for Voltaura's Transformator, a transformer business in Andijan, Uzbekistan, operating since 2010. The business repairs transformers and manufactures and sells transformer products. The page turns visitors (factories, utilities/builders, farms and small businesses) into phone calls, Telegram chats and workshop visits.
+A trilingual (Uzbek Latin, Uzbek Cyrillic + Russian) landing page for Voltaura's Transformator, a transformer business in Andijan, Uzbekistan, operating since 2010. The business repairs transformers and manufactures and sells transformer products. The page turns visitors (factories, utilities/builders, farms and small businesses) into phone calls, Telegram chats and workshop visits.
 
 ## Core Value
 
@@ -29,7 +29,7 @@ A visitor instantly understands what Voltaura does (repair, produce, sell transf
 - [ ] Delivery and partners section: delivery across Uzbekistan; partners from China, Russia, Kazakhstan, Tajikistan, Kyrgyzstan
 - [ ] Trust section: operating since 2010, certificates/licenses, real photos of workshop and products
 - [ ] Contact section: click-to-call, Telegram link, address with embedded Google Map (Andijan)
-- [ ] Language switcher: Uzbek and Russian
+- [ ] Language switcher: Uzbek (Latin), Uzbek (Cyrillic) and Russian
 - [ ] Responsive, mobile-first, fast loading (Uzbek users are mostly on mobile)
 - [ ] Clean corporate look (white, navy blue), using the supplied logo
 - [ ] SEO basics: meta tags, local business structured data, per-language titles
@@ -37,7 +37,7 @@ A visitor instantly understands what Voltaura does (repair, produce, sell transf
 
 ### Out of Scope
 
-- English version — only Uzbek and Russian requested for v1
+- English version — only Uzbek (Latin + Cyrillic) and Russian for v1
 - Online ordering / payments / prices cart — landing page drives inquiries, not e-commerce
 - Quote form with backend — contact via call, Telegram and visit only (can add later)
 - User accounts / admin panel — static content is enough
@@ -51,7 +51,7 @@ A visitor instantly understands what Voltaura does (repair, produce, sell transf
 
 ## Constraints
 
-- **Languages**: Uzbek + Russian — local buyers and CIS partners
+- **Languages**: Uzbek (Latin + Cyrillic) + Russian — local buyers and CIS partners
 - **Contact**: Call, Telegram and visit only — user-selected goals
 - **Style**: Clean corporate — user choice
 - **Hosting**: Static-friendly, deployable on a custom domain
@@ -60,7 +60,8 @@ A visitor instantly understands what Voltaura does (repair, produce, sell transf
 
 | Decision | Rationale | Outcome |
 |----------|-----------|---------|
-| Uzbek + Russian, no English | Matches buyers and partner regions | — Pending |
+| Uzbek (Latin + Cyrillic) + Russian, no English | Matches buyers and partner regions; user chose both Uzbek scripts | — Pending |
+| Uzbek default at root; Astro static site on Cloudflare free | Local-first audience; fast static delivery (check commercial terms before launch) | — Pending |
 | CTAs: call, Telegram, visit | How local B2B customers contact suppliers | — Pending |
 | Clean corporate style | Trust for industrial buyers | — Pending |
 | No quote form in v1 | Avoids backend; Telegram covers inquiries | — Pending |
@@ -83,4 +84,4 @@ This document evolves at phase transitions and milestone boundaries.
 4. Update Context with current state
 
 ---
-*Last updated: 2026-10-07 after initialization*
+*Last updated: 2026-10-07 after research and scope decisions*
